@@ -1,11 +1,4 @@
-function produceDrivingRange(){
-
-}
-function produceTipCalculator( )
-driverId = 0;
-class Driver{
-  constructor(name){
-    this.name = name;function produceDrivingRange(blockRange) {
+function produceDrivingRange(blockRange) {
   return function (startingBlock, endingBlock) {
     let start = parseInt(startingBlock);
     let end = parseInt(endingBlock);
@@ -35,7 +28,3 @@ function createDriver() {
     }
   }
 }
-    this.id = ++driverId;
-  }
-}
-const d = new Driver();
