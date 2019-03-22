@@ -1,3 +1,7 @@
+function produceDrivingRange(){
+  
+}
+function produceTipCalculator( )
 driverId = 0;
 class Driver{
   constructor(name){
