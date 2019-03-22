@@ -4,7 +4,5 @@ class Driver{
     this.id = ++driverId;
     this.name = name;
   }
-  createDriver(driver){
-    return driver * this.name;
-  }
 }
+const d = new Driver();
